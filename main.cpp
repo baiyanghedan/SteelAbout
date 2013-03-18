@@ -1,7 +1,9 @@
-#pragma once
-#ifndef _STEEL_ABOUT_H_
-#define _STEEL_ABOUT_H_
+#include "SteelAbout.h"
 
+void main()
+{
+	SteelAbout steelCase("E:/Jerrry/GitHub/Susu/Material/Standard.csv");
+	steelCase.SortByType();
 
-
-#endif
+	return;
+}
